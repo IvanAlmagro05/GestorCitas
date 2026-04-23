@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:hint="Nombre del Cliente"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#606060"/>
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:hint="Teléfono (ej: +34...)"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#606060"/>
+
+    <EditText
+        android:id="@+id/edtFecha"
+        android:hint="Fecha"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#606060"/>
+
+    <EditText
+        android:id="@+id/edtHora"
+        android:hint="Hora"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#606060"/>
+
+    <Spinner
+        android:id="@+id/spinnerTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtNotas"
+        android:hint="Notas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#606060"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:text="Guardar Cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCitas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LLÁMANOS"/>
+
+  </LinearLayout>

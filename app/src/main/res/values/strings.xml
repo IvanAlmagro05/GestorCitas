@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gestor de Citas</string>
+    <!-- Nombre que aparece en el launcher y en la barra superior -->
+
+    <string-array name= "tipos_cita">
+        <item>Médico</item>
+        <item>Peluquería</item>
+        <item>Tutoría</item>
+        <item>Reunión</item>
+        <item>Otros</item>
+    </string-array>
+    <!-- Lista de opciones que aparecerá en el Spinner (desplegable) -->
+</resources>
